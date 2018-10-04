@@ -1,0 +1,151 @@
+body{
+	background-color: #FCFAAB;
+}
+
+.mio_div{
+	width: 10px;
+	height: 10px;
+	float: left;
+	border:1px solid transparent;
+}
+.pulsanti_menu:hover{
+	color:red;
+	cursor: pointer;
+	
+}
+
+.freccia:hover{
+	color:black;
+}
+
+
+.space{
+	position: absolute;
+	left: 280px;
+	
+}
+
+#scritta{
+	background-image: url(../immagini/snake.png);
+	position: relative;
+	left: -20px;
+	height: 151px;
+	width: 313px;
+}
+
+#logo{
+	background-image: url(../immagini/logo.png);
+	position: relative;
+	left:-20px;
+	top:-40px;
+	height: 260px;
+	width: 240px;
+}
+
+#box{
+	background-color: #808000;
+	border:thick solid black;
+	position: absolute;
+	left:250px;
+	top: 90px;
+	height: 420px;
+	width: 540px;
+}
+
+#rule{
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: justify;
+	font-size: large;
+	font-family: Monaco, Consolas, "Lucida Console", monospace;
+}
+
+#menu{
+	position: absolute;
+	left:170px;
+	top:30px;
+	font-size: x-large;
+	font-family: Impact;
+}
+
+#new_game{
+	position: relative;
+	top:10px;
+}
+
+#level{
+	position: relative;
+	top:60px;
+}
+
+
+#labirinto{
+	position: relative;
+	top: 110px;
+}
+
+#highscores{
+	position: relative;
+	top:160px;
+}
+
+#regole{
+	position: relative;
+	top:210px;
+}
+
+#torna{
+	width: 300px;
+	height: 200px;
+}
+
+#punteggi_db{
+	position: absolute;
+	border: none;
+	height: 350px;
+	width: 420px;
+	overflow: hidden;
+	top:-30px;
+	left: -70px;
+}
+
+#back{
+	position: absolute;
+	top: 340px;
+	left: -90px;
+}
+
+#start{
+	position: absolute;
+	top: 340px;
+	left: 160px;
+}
+
+#highscore{
+	position: absolute;
+	top:90px;
+	left:810px;
+	height: 430px;
+	width: 192px;
+	font-size: large;
+	font-family: Impact;
+	color:red;
+}
+
+#bonus{
+	position: relative;
+	color:blue;
+}
+
+#b_score{
+	position: absolute;
+	top:198px;
+}
+
+#c_score{
+	position: absolute;
+	top: 326px;
+	width: 157px;
+}
